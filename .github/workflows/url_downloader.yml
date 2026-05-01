@@ -24,7 +24,7 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v0
+        uses: actions/checkout@v20
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
